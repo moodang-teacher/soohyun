@@ -158,13 +158,13 @@ const sliderData = [
     },
   },
   {
-    title: "02. PROJECT",
-    badges: ["UI/UX", "웹디자인", "프론트엔드"],
+    title: "02. 상식팡",
+    badges: ["어플 디자인"],
     description:
-      "사용자 경험을 최우선으로 고려한 반응형 웹 디자인 프로젝트입니다.",
+      "사용자 경험을 최우선으로 고려한 반응형 웹 디자인 프로젝트입니다.", 
     meta: "개인작업 | <strong>디자인 & 개발 100%</strong>",
     tools: ["icon-figma.png", "icon-photoshop.png"],
-    image: "./img/MainContentImg.png",
+    image: "./img/CommonSense-img.png",
     designContent: {
       title: "PROJECT 02 Design Concept",
       content:
