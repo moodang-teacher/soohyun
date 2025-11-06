@@ -49,7 +49,7 @@ const contents = [
     title: "서울강남치과",
     tag: "#Graphic",
     description:
-      "누런 치아를 환한 화이트 치아로 변화시켜주는 ‘화이트 스마일 프로젝트’ 이벤트 배너입니다. 혜택 정보를 강조하고, 간편 상담을 자연스럽게 유도할 수 있도록 디자인했습니다.",
+      "누런 치아를 환한 화이트 치아로 변화시켜주는 '화이트 스마일 프로젝트' 이벤트 배너입니다. 혜택 정보를 강조하고, 간편 상담을 자연스럽게 유도할 수 있도록 디자인했습니다.",
     period: "3 Hours",
     tools: ["InD", "Ps"],
     images: {
@@ -125,7 +125,7 @@ const contents = [
     title: "BASKIN ROBBINS",
     tag: "#Graphic",
     description:
-      "많은 사람들의 최애였던 ‘엄마는 외계인’에 한층 더 진한 초콜릿 풍미를 더해, 새로운 느낌으로 재해석했습니다.",
+      "많은 사람들의 최애였던 '엄마는 외계인'에 한층 더 진한 초콜릿 풍미를 더해, 새로운 느낌으로 재해석했습니다.",
     period: "3 Hours",
     tools: ["Ai", "Ps"],
     images: {
@@ -146,35 +146,21 @@ const sliderData = [
     meta: "팀작업 | <strong>디자인 100%</strong>",
     tools: ["icon-photoshop.png", "icon-illustrator.png", "icon-figma.png"],
     image: "./img/STEINWAY-img.png",
-    designContent: {
-      title: "STEINWAY Design Concept",
-      content:
-        "클래식한 피아노 브랜드의 품격을 유지하면서도 현대적인 감각을 더한 디자인 컨셉입니다. 타이포그래피와 여백을 활용하여 고급스러운 느낌을 표현했습니다.",
-    },
-    processContent: {
-      title: "STEINWAY Workflow & Process",
-      content:
-        "1. 리서치 및 분석 → 2. 와이어프레임 제작 → 3. UI 디자인 → 4. 프로토타입 테스트 → 5. 최종 디자인 완성",
-    },
+    designUrl:
+      "https://www.figma.com/proto/aVQ8y63tvFasKHyTu8TV1a/steinway-%EB%A6%AC%EB%94%94%EC%9E%90%EC%9D%B8-%EA%B9%80%EC%88%98%ED%98%84?page-id=178%3A3605&node-id=178-4871&p=f&viewport=-66%2C187%2C0.06&t=kBo2sRRXSOWR0yKg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=178%3A5091",
+    processImage: "./img/STEINWAY-process.png",
   },
   {
     title: "02. 상식팡",
-    badges: ["어플 디자인"],
+    badges: ["앱 디자인"],
     description:
-      "사용자 경험을 최우선으로 고려한 반응형 웹 디자인 프로젝트입니다.", 
-    meta: "개인작업 | <strong>디자인 & 개발 100%</strong>",
-    tools: ["icon-figma.png", "icon-photoshop.png"],
+      "상식이 자라면 세상도 자란다. 상식을 키우는 앱 프로젝트입니다.",
+    meta: "팀 프로젝트 작업 | <strong>참여도 25%</strong>",
+    tools: ["icon-photoshop.png", "icon-figma.png"],
     image: "./img/CommonSense-img.png",
-    designContent: {
-      title: "PROJECT 02 Design Concept",
-      content:
-        "사용자 중심의 직관적인 인터페이스 디자인을 목표로 했습니다. 반응형 레이아웃과 접근성을 고려한 컬러 스킴을 적용했습니다.",
-    },
-    processContent: {
-      title: "PROJECT 02 Workflow & Process",
-      content:
-        "1. 사용자 리서치 → 2. 페르소나 정의 → 3. 정보구조 설계 → 4. UI 디자인 → 5. 프론트엔드 개발 → 6. 테스트 및 피드백",
-    },
+    designUrl:
+      "https://www.figma.com/proto/W7huWOILzdJJiea27cL26r/%EC%83%81%EC%8B%9D%ED%8C%A1-%EA%B9%80%EC%88%98%ED%98%84?page-id=0%3A1&node-id=1-7312&p=f&viewport=-139%2C14789%2C0.16&t=SsByHEkKsoFY0gRg-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A7312&show-proto-sidebar=1",
+    processImage: "./img/CommonSense-process.png",
   },
   {
     title: "03. BRANDING",
@@ -184,16 +170,8 @@ const sliderData = [
     meta: "팀작업 | <strong>디자인 80%</strong>",
     tools: ["icon-illustrator.png", "icon-photoshop.png"],
     image: "./img/Samsung-Galaxy Tab.png",
-    designContent: {
-      title: "BRANDING Design Concept",
-      content:
-        "브랜드의 핵심 가치를 시각적으로 표현하기 위해 심볼과 로고타입을 개발했습니다. 일관된 컬러 시스템과 타이포그래피로 브랜드 아이덴티티를 구축했습니다.",
-    },
-    processContent: {
-      title: "BRANDING Workflow & Process",
-      content:
-        "1. 브랜드 분석 → 2. 컨셉 개발 → 3. 로고 디자인 → 4. 컬러/폰트 시스템 → 5. 어플리케이션 디자인 → 6. 가이드라인 제작",
-    },
+    designUrl: "https://example.com/branding",
+    processImage: "./img/branding-process.png",
   },
   {
     title: "04. MOBILE APP",
@@ -203,16 +181,8 @@ const sliderData = [
     meta: "개인작업 | <strong>디자인 100%</strong>",
     tools: ["icon-figma.png"],
     image: "./img/Samsung-Galaxy Tab.png",
-    designContent: {
-      title: "MOBILE APP Design Concept",
-      content:
-        "모바일 환경에 최적화된 UI/UX를 설계했습니다. 제스처 기반 인터랙션과 직관적인 네비게이션으로 사용성을 극대화했습니다.",
-    },
-    processContent: {
-      title: "MOBILE APP Workflow & Process",
-      content:
-        "1. 사용자 시나리오 작성 → 2. 와이어프레임 → 3. UI 디자인 → 4. 인터랙션 디자인 → 5. 프로토타입 제작 → 6. 사용자 테스트",
-    },
+    designUrl: "https://example.com/mobileapp",
+    processImage: "./img/mobile-process.png",
   },
   {
     title: "05. EDITORIAL",
@@ -222,16 +192,8 @@ const sliderData = [
     meta: "팀작업 | <strong>디자인 60%</strong>",
     tools: ["icon-photoshop.png", "icon-illustrator.png"],
     image: "./img/Samsung-Galaxy Tab.png",
-    designContent: {
-      title: "EDITORIAL Design Concept",
-      content:
-        "타이포그래피와 그리드 시스템을 활용한 에디토리얼 디자인입니다. 가독성을 해치지 않으면서도 시각적으로 흥미로운 레이아웃을 구성했습니다.",
-    },
-    processContent: {
-      title: "EDITORIAL Workflow & Process",
-      content:
-        "1. 콘텐츠 분석 → 2. 그리드 시스템 설정 → 3. 타이포그래피 선정 → 4. 레이아웃 디자인 → 5. 이미지 편집 → 6. 인쇄 준비",
-    },
+    designUrl: "https://example.com/editorial",
+    processImage: "./img/editorial-process.png",
   },
   {
     title: "06. MOTION",
@@ -241,16 +203,8 @@ const sliderData = [
     meta: "개인작업 | <strong>디자인 & 제작 100%</strong>",
     tools: ["icon-photoshop.png", "icon-illustrator.png", "icon-figma.png"],
     image: "./img/Samsung-Galaxy Tab.png",
-    designContent: {
-      title: "MOTION Design Concept",
-      content:
-        "브랜드 스토리를 효과적으로 전달하기 위한 모션 그래픽 디자인입니다. 타이밍과 이징을 활용하여 자연스러운 움직임을 표현했습니다.",
-    },
-    processContent: {
-      title: "MOTION Workflow & Process",
-      content:
-        "1. 스토리보드 작성 → 2. 스타일 프레임 제작 → 3. 애니메이션 제작 → 4. 사운드 디자인 → 5. 최종 렌더링 → 6. 배포",
-    },
+    designUrl: "https://example.com/motion",
+    processImage: "./img/motion-process.png",
   },
 ];
 
@@ -492,8 +446,7 @@ function initWaterEffect(container, imageUrl) {
 function attachOverlayButtonEvents() {
   const designBtn = document.getElementById("design-btn");
   const processBtn = document.getElementById("process-btn");
-  const designOverlay = document.getElementById("modal-design-concept");
-  const processOverlay = document.getElementById("modal-workflow-process");
+  const processOverlay = document.getElementById("modal-process-concept");
 
   if (!designBtn || !processBtn) return;
 
@@ -506,51 +459,39 @@ function attachOverlayButtonEvents() {
   newDesignBtn.addEventListener("click", () => {
     console.log("Design button clicked, currentSlide:", currentSlide);
     const data = sliderData[currentSlide];
-    console.log("Design data:", data.designContent);
+    console.log("Design URL:", data.designUrl);
 
-    const overlayTitle = designOverlay.querySelector(".overlay-title");
-
-    const existingDesc = designOverlay.querySelectorAll(
-      ".overlay-description-text"
-    );
-    existingDesc.forEach((el) => el.remove());
-
-    overlayTitle.textContent = data.designContent.title;
-
-    const closeBtn = designOverlay.querySelector(".overlay-close-btn");
-    const descDiv = document.createElement("div");
-    descDiv.className = "overlay-description-text";
-    descDiv.style.cssText =
-      "padding: 80px 50px 50px 50px; font-size: 18px; line-height: 1.8; color: #333;";
-    descDiv.textContent = data.designContent.content;
-
-    closeBtn.parentElement.appendChild(descDiv);
-
-    toggleOverlay(designOverlay, true);
+    // 새 탭에서 사이트 열기
+    window.open(data.designUrl, "_blank");
   });
 
   newProcessBtn.addEventListener("click", () => {
     console.log("Process button clicked, currentSlide:", currentSlide);
     const data = sliderData[currentSlide];
-    console.log("Process data:", data.processContent);
+    console.log("Process image:", data.processImage);
 
-    const overlayTitle = processOverlay.querySelector(".overlay-title");
+    const overlayContent = processOverlay.querySelector(".overlay-content");
 
-    const existingDesc = processOverlay.querySelectorAll(
-      ".overlay-description-text"
+    // 기존 이미지 제거
+    const existingImg = overlayContent.querySelector(
+      ".process-image-container"
     );
-    existingDesc.forEach((el) => el.remove());
+    if (existingImg) {
+      existingImg.remove();
+    }
 
-    overlayTitle.textContent = data.processContent.title;
+    // 이미지 컨테이너 생성
+    const imageContainer = document.createElement("div");
+    imageContainer.className = "process-image-container";
 
-    const closeBtn = processOverlay.querySelector(".overlay-close-btn");
-    const descDiv = document.createElement("div");
-    descDiv.className = "overlay-description-text";
-    descDiv.style.cssText =
-      "padding: 80px 50px 50px 50px; font-size: 18px; line-height: 1.8; color: #333; white-space: pre-line;";
-    descDiv.textContent = data.processContent.content;
+    const img = document.createElement("img");
+    img.src = data.processImage;
+    img.alt = "Process Image";
+    img.style.width = "100%";
+    img.style.height = "auto";
 
-    closeBtn.parentElement.appendChild(descDiv);
+    imageContainer.appendChild(img);
+    overlayContent.appendChild(imageContainer);
 
     toggleOverlay(processOverlay, true);
   });
@@ -571,8 +512,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const designBtn = document.getElementById("design-btn");
   const processBtn = document.getElementById("process-btn");
 
-  const designOverlay = document.getElementById("modal-design-concept");
-  const processOverlay = document.getElementById("modal-workflow-process");
+  const processOverlay = document.getElementById("modal-process-concept");
 
   function toggleOverlay(overlay, isOpen) {
     if (isOpen) {
@@ -588,14 +528,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll(".overlay-close-btn").forEach((button) => {
     button.addEventListener("click", (event) => {
-      const overlay = event.target.closest(".main-overlay");
+      const overlay = event.target.closest(".main-overlay, .overlay");
       if (overlay) {
         toggleOverlay(overlay, false);
       }
     });
   });
 
-  document.querySelectorAll(".main-overlay").forEach((overlay) => {
+  document.querySelectorAll(".main-overlay, .overlay").forEach((overlay) => {
     overlay.addEventListener("click", (event) => {
       if (event.target === overlay) {
         toggleOverlay(overlay, false);
@@ -605,9 +545,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
-      document.querySelectorAll(".main-overlay.visible").forEach((overlay) => {
-        toggleOverlay(overlay, false);
-      });
+      document
+        .querySelectorAll(".main-overlay.visible, .overlay.active")
+        .forEach((overlay) => {
+          if (overlay.classList.contains("main-overlay")) {
+            toggleOverlay(overlay, false);
+          } else if (overlay.classList.contains("overlay")) {
+            closeOverlay();
+          }
+        });
     }
   });
 
