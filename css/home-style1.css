@@ -211,7 +211,6 @@ nav .gnb-btn a:hover {
   pointer-events: all; /* 마우스 이벤트 감지 */
   cursor: pointer;
   transition: transform 0.3s cubic-bezier(1, -0.65, 0, 1.43); /* 호버 시 확대 효과 */
-  /* background-image 제거 - WebGL이 대체함 */
 }
 
 /* WebGL 캔버스 스타일 */

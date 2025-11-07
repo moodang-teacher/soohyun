@@ -72,7 +72,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const canvas = document.createElement("canvas");
   textBg.appendChild(canvas);
 
-  const gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+  const gl =
+    canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
   if (!gl) {
     console.error("WebGL not supported");
     return;
@@ -195,7 +196,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const vertexShader = createShader(gl, gl.VERTEX_SHADER, vertexShaderSource);
-  const fragmentShader = createShader(gl, gl.FRAGMENT_SHADER, fragmentShaderSource);
+  const fragmentShader = createShader(
+    gl,
+    gl.FRAGMENT_SHADER,
+    fragmentShaderSource
+  );
 
   // 프로그램 생성
   const program = gl.createProgram();
@@ -212,10 +217,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // 버퍼 설정
   const positionBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
-    -1, -1,  1, -1,  -1, 1,
-    -1, 1,   1, -1,   1, 1
-  ]), gl.STATIC_DRAW);
+  gl.bufferData(
+    gl.ARRAY_BUFFER,
+    new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]),
+    gl.STATIC_DRAW
+  );
 
   const positionLocation = gl.getAttribLocation(program, "a_position");
   gl.enableVertexAttribArray(positionLocation);
@@ -223,10 +229,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const texCoordBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, texCoordBuffer);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
-    0, 1,  1, 1,  0, 0,
-    0, 0,  1, 1,  1, 0
-  ]), gl.STATIC_DRAW);
+  gl.bufferData(
+    gl.ARRAY_BUFFER,
+    new Float32Array([0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0]),
+    gl.STATIC_DRAW
+  );
 
   const texCoordLocation = gl.getAttribLocation(program, "a_texCoord");
   gl.enableVertexAttribArray(texCoordLocation);
@@ -241,12 +248,21 @@ document.addEventListener("DOMContentLoaded", () => {
   // 텍스처 로드
   const texture = gl.createTexture();
   gl.bindTexture(gl.TEXTURE_2D, texture);
-  gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, 1, 1, 0, gl.RGBA, gl.UNSIGNED_BYTE,
-                new Uint8Array([0, 0, 0, 0]));
+  gl.texImage2D(
+    gl.TEXTURE_2D,
+    0,
+    gl.RGBA,
+    1,
+    1,
+    0,
+    gl.RGBA,
+    gl.UNSIGNED_BYTE,
+    new Uint8Array([0, 0, 0, 0])
+  );
 
   const image = new Image();
   image.crossOrigin = "anonymous";
-  image.src = "../img/home-bg.svg";
+  image.src = "./img/home-bg.svg";
   image.onload = () => {
     gl.bindTexture(gl.TEXTURE_2D, texture);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, image);
