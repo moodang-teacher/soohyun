@@ -163,11 +163,12 @@ const sliderData = [
     processImage: "./img/CommonSense-process.png",
   },
   {
-    title: "03. BRANDING",
-    badges: ["패션 디자인"],
-    description: "패션 디자인 프로젝트입니다.",
+    title: "03. BASKINROBBINS",
+    badges: ["리디자인", "웹디자인"],
+    description:
+      "귀여운 일러스트와 상큼한 컬러감의 배스킨라빈스 리디자인 프로젝트입니다.",
     meta: "개인 작업 | <strong>디자인 100%</strong>",
-    tools: ["icon-photoshop.png", "icon-illustrator.png"],
+    tools: ["icon-photoshop.png", "icon-figma.png"],
     image: "./img/Samsung-Galaxy Tab.png",
     designUrl: "https://example.com/branding",
     processImage: "./img/branding-process.png",
@@ -195,15 +196,14 @@ const sliderData = [
     processImage: "./img/editorial-process.png",
   },
   {
-    title: "06. MOTION",
-    badges: ["모션그래픽", "애니메이션", "영상"],
-    description:
-      "다이나믹한 움직임으로 스토리를 전달하는 모션 그래픽 프로젝트입니다.",
-    meta: "개인작업 | <strong>디자인 & 제작 100%</strong>",
-    tools: ["icon-photoshop.png", "icon-illustrator.png", "icon-figma.png"],
+    title: "06. FASHION DESIGN",
+    badges: ["패션 디자인"],
+    description: "패션 디자인 프로젝트입니다.",
+    meta: "개인 작업 | <strong>디자인 100%</strong>",
+    tools: ["icon-photoshop.png", "icon-illustrator.png"],
     image: "./img/Samsung-Galaxy Tab.png",
-    designUrl: "https://example.com/motion",
-    processImage: "./img/motion-process.png",
+    designUrl: "https://example.com/branding",
+    processImage: "./img/branding-process.png",
   },
 ];
 

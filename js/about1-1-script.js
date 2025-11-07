@@ -172,4 +172,12 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+
+  gsap.registerPlugin(DrawSVGPlugin);
+
+  gsap.fromTo(
+    "#e-path",
+    { drawSVG: "100% 100%" },
+    { drawSVG: "0% 100%", duration: 3, ease: "none" }
+  );
 });

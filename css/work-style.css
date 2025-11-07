@@ -416,7 +416,7 @@ nav .gnb-btn a:hover {
 }
 /* 3. 우측 상세 정보 스타일 */
 .project-title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
 }
 
@@ -599,8 +599,6 @@ nav .gnb-btn a:hover {
 /*  landing-page - slider 시작부분 */
 
 #landing-page {
-  border: 1px solid #000;
-
   width: 100%;
   height: 100vh;
   box-sizing: border-box;

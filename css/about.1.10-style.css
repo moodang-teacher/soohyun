@@ -295,21 +295,6 @@ nav .gnb-btn a:hover {
   }
 }
 
-/* 물결선 배경 이미지 */
-.line-bg {
-  position: absolute;
-  top: 50px; /* 내비게이션 바 아래에서 시작 */
-  left: 0;
-  width: 100%;
-  aspect-ratio: 1/0.3072916666666667;
-
-  /* 물결선 이미지를 설정 */
-  background-image: url("../img/about-line-gb.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  pointer-events: none;
-}
 .about1 {
   position: relative;
 
@@ -547,4 +532,13 @@ nav .gnb-btn a:hover {
 .text-box strong {
   color: #0088a6;
   font-weight: 700;
+}
+
+.wrap {
+  width: 100%;
+}
+#e-path {
+  stroke: #0186a6;
+  stroke-width: 4;
+  fill: none;
 }
